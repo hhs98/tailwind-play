@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Inter", "Hind Siliguri", system-ui, -apple-system, "Segoe UI",
+      Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji";
+  }
+}
+
+@layer components {
+  .btn-green {
+    @apply px-4 py-2 text-gray-500 transition duration-200 ease-in text-lg hover:text-green-500 hover:font-semibold flex gap-4 items-center;
+  }
+  .btn-white {
+    @apply bg-white px-6 py-2 rounded-full text-gray-700 flex items-center lg:justify-center gap-4 font-semibold w-full;
+  }
+  .card {
+    @apply p-6 w-full bg-white rounded-xl shadow-md flex items-center space-x-4;
+  }
+}
