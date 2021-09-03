@@ -1,20 +1,20 @@
 {
-  "name": "somadhan_tailwind",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "dev": "TAILWIND_MODE=watch postcss tailwind.css -o ./public/style.css -w --verbose",
-    "build": "NODE_ENV=production postcss tailwind.css -o ./public/style.css --verbose"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^10.3.3",
-    "cssnano": "^5.0.8",
-    "postcss": "^8.3.6",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.2.8"
-  }
+    "name": "somadhan_tailwind",
+    "version": "1.0.0",
+    "description": "A playgroud for me to play with tailwind css",
+    "main": "index.js",
+    "scripts": {
+        "dev": "set TAILWIND_MODE=watch&postcss tailwind.css -o ./public/style.css -w --verbose",
+        "build": "set NODE_ENV=production&postcss tailwind.css -o ./public/style.css --verbose"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.3.3",
+        "cssnano": "^5.0.8",
+        "postcss": "^8.3.6",
+        "postcss-cli": "^8.3.1",
+        "tailwindcss": "^2.2.8"
+    }
 }
